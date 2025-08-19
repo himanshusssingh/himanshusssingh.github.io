@@ -78,7 +78,8 @@
   .btn-container {
     flex-wrap: wrap;
   }
-  .contact-info-container {
+  .contact-info-container,
+    .contact-info-upper-container {
     margin: 0.5rem;
   }
   .contact-info-container p,
@@ -86,10 +87,10 @@
     font-size: 1rem;
   }
   .experience-sub-title {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .logo {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .nav-links {
     flex-direction: column;
@@ -123,5 +124,32 @@
   .certificate-img-div, .certificate-desc {
     width: 100%;
     margin: 0%;
+  }
+
+  .details-container {
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  .skill-box{
+    width: 40%;
+  }
+
+  .article-container {
+    gap: 0.8rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  article p {
+    font-size: 0.8rem;
+  }
+
+  .btn {
+    padding: 0.4rem;
+    width: 5rem;
+    font-size: 0.6rem;
   }
 }

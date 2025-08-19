@@ -369,6 +369,7 @@ article .icon {
 #projects {
   position: relative;
   padding-top: 7rem;
+  justify-items: center;
 }
 
 .project-details-container {
