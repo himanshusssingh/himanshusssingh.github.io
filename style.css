@@ -390,7 +390,9 @@ article .icon {
 .project-details-container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin-top: 50px;
 }
 
 .color-container {
