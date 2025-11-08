@@ -29,7 +29,7 @@ Deployment: GitHub Pages
 To run this project locally:
 
 ## Clone the repository
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/himanshusssingh/himanshusssingh.github.io.git
 
 ## Go inside the folder
 cd portfolio
@@ -42,6 +42,6 @@ npm start
 
 # 📬 Contact
 
-Name: Himanshu Singh
+Name: [Himanshu Singh](https://himanshusssingh.github.io)
 
 Email: himanshusingh39397@gmail.com
