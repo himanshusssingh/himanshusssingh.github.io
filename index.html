@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Himanshu Singh</title>
-    <link rel="icon" type="image/png" href="./assets/checkmark.png">
+    <link rel="icon" type="image/png" href="./assets/checkmark.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
@@ -35,7 +35,9 @@
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#certificates" onclick="toggleMenu()">Certificates</a></li>
+          <li>
+            <a href="#certificates" onclick="toggleMenu()">Certificates</a>
+          </li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
@@ -45,7 +47,7 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Himanshu Singh</h1>
-        <p class="section__text__p2">Full Stack Developer</p>
+        <p class="section__text__p2">Aspiring Software Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
@@ -53,7 +55,10 @@
           >
             Download Resume
           </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          <button
+            class="btn btn-color-1"
+            onclick="location.href = './#contact'"
+          >
             Contact Info
           </button>
         </div>
@@ -62,13 +67,16 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://www.linkedin.com/in/himanshu-singh-325438291/'"
+            onclick="
+              location.href =
+                'https://www.linkedin.com/in/himanshu-singh-325438291/'
+            "
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/himanshusssingh'"
+            onclick="location.href = 'https://github.com/himanshusssingh'"
           />
         </div>
       </div>
@@ -125,7 +133,15 @@
 
           <div class="text-container">
             <p class="para">
-              I’m a passionate Computer Engineering student with hands-on experience in full-stack web development using JavaScript, Node.js, MongoDB, and React. I love solving real-world problems through code and continuously building projects to sharpen my skills. Currently exploring system design and contributing to open-source.
+              I have completed a Full Stack Development course where I worked
+              with HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. <br>
+              Recently, I have also started focusing more on Core Java, JDBC,
+              and Servlets. I have built projects like a RojgaarSetu,
+              HSynapse, and a MERN-based travel booking application,
+              which helped me understand real-world application development and
+              problem-solving. <br> My goal is to start my career as a Java Developer
+              where I can apply my technical skills, keep learning, and
+              contribute to the growth of the organization.
             </p>
           </div>
         </div>
@@ -135,16 +151,15 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href = './#experience'"
       />
     </section>
 
     <!-- Skills Section -->
-    <section id="experience">    
+    <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Skills</h1>
       <div class="experience-details-container">
-        
         <div class="about-containers">
           <div class="details-container skill-box">
             <h2 class="experience-sub-title">Frontend Development</h2>
@@ -366,7 +381,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href = './#projects'"
       />
     </section>
 
@@ -374,242 +389,299 @@
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="project-details-container">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/H-Wanderlust.png"
-                alt="H-Wanderlust"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">H-Wanderlust</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/Wanderlust'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/Wanderlust/blob/main/README.md'"
-              >
-                About
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://h-wanderlust.onrender.com/listing'"
-              >
-                Live Demo
-              </button>
-            </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/H-Wanderlust.png"
+              alt="H-Wanderlust"
+              class="project-img"
+            />
           </div>
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/Hsynapse.png"
-                alt="Hsynapse"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">HSynapse</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/HSynapse.git'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/HSynapse/blob/main/README.md'"
-              >
-                About
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='#projects'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>          
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/HSResult.png"
-                alt="HSResult"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">HSResult</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/HSResult.git'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/HSResult/blob/main/README.md'"
-              >
-                About
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='#projects'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>                    
-
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/HStox.png" alt="HStox" class="project-img" />
-            </div>
-            <h2 class="experience-sub-title project-title">HStox</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/HStox'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/HStox/blob/main/README.md/'"
-              >
-                About 
-              </button>
-            </div>
+          <h2 class="experience-sub-title project-title">H-Wanderlust</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href = 'https://github.com/himanshusssingh/Wanderlust'
+              "
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/Wanderlust/blob/main/README.md'
+              "
+            >
+              About
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href = 'https://h-wanderlust.onrender.com/listing'
+              "
+            >
+              Live Demo
+            </button>
           </div>
+        </div>
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img src="./assets/Amazon.png" alt="Amazon" class="project-img" />
-            </div>
-            <h2 class="experience-sub-title project-title">Amazon UI Clone</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/Amazon-Clone'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/Amazon-Clone/blob/main/README.md/'"
-              >
-                About 
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href=' https://himanshusssingh.github.io/Amazon-Clone/'"
-              >
-                Live Demo
-              </button>
-            </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/Hsynapse.png"
+              alt="Hsynapse"
+              class="project-img"
+            />
           </div>
+          <h2 class="experience-sub-title project-title">HSynapse</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/HSynapse.git'
+              "
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/HSynapse/blob/main/README.md'
+              "
+            >
+              About
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href = '#projects'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/BookMyShow.png"
-                alt="BookMyShow"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">
-              BookMyShow UI Clone
-            </h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/BookMyShow-Clone'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/BookMyShow-Clone/blob/main/README.md'"
-              >
-                About 
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://himanshusssingh.github.io/BookMyShow-Clone/'"
-              >
-                Live Demo
-              </button>
-            </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/HSResult.png"
+              alt="HSResult"
+              class="project-img"
+            />
           </div>
+          <h2 class="experience-sub-title project-title">HSResult</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/HSResult.git'
+              "
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/HSResult/blob/main/README.md'
+              "
+            >
+              About
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href = '#projects'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/DailyScribe.png"
-                alt="DailyScribe"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">DailyScribe</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/DailyScribe/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/DailyScribe/blob/main/README.md'"
-              >
-                About 
-              </button>
-            </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/HStox.png" alt="HStox" class="project-img" />
           </div>
+          <h2 class="experience-sub-title project-title">HStox</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href = 'https://github.com/himanshusssingh/HStox'
+              "
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/HStox/blob/main/README.md/'
+              "
+            >
+              About
+            </button>
+          </div>
+        </div>
 
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/Spotify.png"
-                alt="Spotify "
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Spotify UI Clone</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/Spotify-Clone/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/himanshusssingh/Spotify-Clone/blob/main/README.md/'"
-              >
-                About 
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://himanshusssingh.github.io/Spotify-Clone/'"
-              >
-                Live Demo
-              </button>
-            </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/Amazon.png" alt="Amazon" class="project-img" />
           </div>
+          <h2 class="experience-sub-title project-title">Amazon UI Clone</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/Amazon-Clone'
+              "
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/Amazon-Clone/blob/main/README.md/'
+              "
+            >
+              About
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  ' https://himanshusssingh.github.io/Amazon-Clone/'
+              "
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/BookMyShow.png"
+              alt="BookMyShow"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">
+            BookMyShow UI Clone
+          </h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/BookMyShow-Clone'
+              "
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/BookMyShow-Clone/blob/main/README.md'
+              "
+            >
+              About
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://himanshusssingh.github.io/BookMyShow-Clone/'
+              "
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/DailyScribe.png"
+              alt="DailyScribe"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">DailyScribe</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/DailyScribe/'
+              "
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/DailyScribe/blob/main/README.md'
+              "
+            >
+              About
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img
+              src="./assets/Spotify.png"
+              alt="Spotify "
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Spotify UI Clone</h2>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/Spotify-Clone/'
+              "
+            >
+              Github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://github.com/himanshusssingh/Spotify-Clone/blob/main/README.md/'
+              "
+            >
+              About
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="
+                location.href =
+                  'https://himanshusssingh.github.io/Spotify-Clone/'
+              "
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
       </div>
-      
+
       <img
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#certificates'"
+        onclick="location.href = './#certificates'"
       />
     </section>
 
@@ -618,7 +690,6 @@
       <h1 class="title">Certificates</h1>
       <div class="project-details-container">
         <div class="about-containers">
-
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -627,11 +698,13 @@
                 class="project-img"
               />
             </div>
-            <h3 class="experience-sub-title project-title">Full Stack Web Development</h3>
+            <h3 class="experience-sub-title project-title">
+              Full Stack Web Development
+            </h3>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='certificates.html'"
+                onclick="location.href = 'certificates.html'"
               >
                 Details
               </button>
@@ -646,11 +719,13 @@
                 class="project-img"
               />
             </div>
-            <h3 class="experience-sub-title project-title">Prompt Engineering with Github Copilot</h3>
+            <h3 class="experience-sub-title project-title">
+              Prompt Engineering with Github Copilot
+            </h3>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='certificates.html'"
+                onclick="location.href = 'certificates.html'"
               >
                 Details
               </button>
@@ -669,7 +744,7 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='certificates.html'"
+                onclick="location.href = 'certificates.html'"
               >
                 Details
               </button>
@@ -682,7 +757,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="location.href = './#contact'"
       />
     </section>
 
@@ -811,7 +886,9 @@
           </ul>
         </div>
       </nav>
-      <p class="para">Copyright &#169; 2025 Himanshu Singh. All Rights Reserved.</p>
+      <p class="para">
+        Copyright &#169; 2025 Himanshu Singh. All Rights Reserved.
+      </p>
     </footer>
     <script src="script.js"></script>
   </body>
