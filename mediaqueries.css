@@ -19,7 +19,6 @@
   #hamburger-nav {
     display: flex;
     box-shadow: 0px 2px 10px black;
-
   }
   #experience,
   .experience-details-container {
@@ -81,7 +80,7 @@
     flex-wrap: wrap;
   }
   .contact-info-container,
-    .contact-info-upper-container {
+  .contact-info-upper-container {
     margin: 0.5rem;
   }
   .contact-info-container p,
@@ -123,7 +122,8 @@
     width: 90%;
   }
 
-  .certificate-img-div, .certificate-desc {
+  .certificate-img-div,
+  .certificate-desc {
     width: 100%;
     margin: 0%;
   }
@@ -133,7 +133,7 @@
     border-radius: 1rem;
   }
 
-  .skill-box{
+  .skill-box {
     width: 40%;
   }
 
